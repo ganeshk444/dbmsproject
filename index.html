@@ -1,0 +1,44 @@
+<html>
+<title>CUSTOMER INFORMATION</title>
+<body style="background-color:powderblue;">
+<h1 style="color:red">Inserting Salesman information to MySQL database using PHP</h1>
+<form action="salesmaninsert.php" method="post">
+Salesman ID: <input type="text" name="sid" /><br>
+Salesman Name: <input type="text" name="name" /><br>
+City: <input type="text" name="city" /><br>
+Commission: <input type="text" name="commission" /><br>
+<input type="submit" value="Insert" />
+<input type="reset" value="Reset" />
+<p>* Click on the reset button to reset the form.</p>
+
+</form>
+
+<hr/>
+<form action="searchsalesman.php" method="post">
+<p style="color:red" >
+<b>Search for a Salesman</b> <br/>
+Enter Salesman Sid: <input type="text" name="name" />
+<input type="submit" value="Search" />
+<input type="reset" value="Reset" />
+<p>* Click on the reset button to reset the form.</p>
+</p>
+</form>
+
+
+<hr/>
+<form action="allsalesman.php" method="post">
+<p style="color:blue" >
+<b>Click below to Retrive all salesman info</b> <br/>
+<input type="submit" value="All the Salesman" />
+</p>
+</form>
+
+<hr />
+<form action="storedprocedure.php" method="post">
+<input type="submit" value="All records using Stored Procedure" />
+</form>
+
+</body>
+</html>
+
+ 
